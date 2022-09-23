@@ -1,0 +1,25 @@
+{
+	"name": "HTMLPurifier",
+	"version": "1.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"url": "https://www.mediawiki.org/wiki/Extension:HTMLPurifier",
+	"descriptionmsg": "htmlpurifier-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "tag",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"HTMLPurifier": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"HTMLPurifierHooks": "HTMLPurifierHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "HTMLPurifierHooks::onParserFirstCallInit"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

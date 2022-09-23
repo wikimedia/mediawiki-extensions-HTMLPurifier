@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"htmlpurifier-desc": "Permite a los usuarios ingresar HTML utilizando HTML Purifier para limpiarlo."
+}
