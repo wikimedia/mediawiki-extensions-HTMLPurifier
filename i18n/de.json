@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"htmlpurifier-desc": "Ermöglicht Benutzern die Eingabe von Roh-HTML, das durch den HTML Purifier bereinigt wird"
+}

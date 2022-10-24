@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"htmlpurifier-desc": "Omogoča uporabnikom, da z uporabo čistilnika HTML vnesejo neobdelani HTML, da ga očistijo."
+}
