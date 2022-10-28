@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"htmlpurifier-desc": "Permite que os utilizadores insiram HTML em bruto usando o Purificador de HTML para torná-lo inofensivo."
+}
