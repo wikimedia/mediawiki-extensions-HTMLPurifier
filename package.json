@@ -1,5 +1,5 @@
 {
-	"name": "WikiVideos",
+	"name": "HTMLPurifier",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
