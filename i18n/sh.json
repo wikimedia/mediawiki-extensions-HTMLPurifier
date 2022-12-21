@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"htmlpurifier-desc": "Omogućuje korisnicima unos neobrađenog HTML-a pomoću HTML purifikatora za čištenje."
+}
