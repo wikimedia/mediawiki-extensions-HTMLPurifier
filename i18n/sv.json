@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"htmlpurifier-desc": "Gör det möjligt för användare att mata in oformaterad HTML med HTML Purifier för att rena den."
+}

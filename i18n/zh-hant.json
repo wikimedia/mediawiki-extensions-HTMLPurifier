@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"htmlpurifier-desc": "允許使用者藉由 HTML Purifier 對 HTML 內容過濾，來輸入原始 HTML 內容。"
+}

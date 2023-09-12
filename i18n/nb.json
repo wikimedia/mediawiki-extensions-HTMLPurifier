@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"htmlpurifier-desc": "Lar brukere sette inn rå HTML ved å bruke HTML Purifier for å renske den."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"htmlpurifier-desc": "Permet aux utilisateurs de saisir du HTML brut en utilisant HTML Purifier pour le rendre sain."
+}

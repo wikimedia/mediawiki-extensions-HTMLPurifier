@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"htmlpurifier-desc": "يسمح للمستخدمين بإدخال HTML الخام باستخدام منقي HTML لتعقيمه."
+}
