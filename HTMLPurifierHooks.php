@@ -15,11 +15,18 @@ class HTMLPurifierHooks {
 	 */
 	public static function onHTML( $input ) {
 		global $wgHTMLPurifierConfig;
+
+		// Purify the HTML
 		$config = HTMLPurifier_Config::createDefault();
 		foreach ( $wgHTMLPurifierConfig as $key => $value ) {
 			$config->set( $key, $value );
 		}
 		$purifier = new HTMLPurifier( $config );
-		return $purifier->purify( $input );
+		$html = $purifier->purify( $input );
+
+		// Allow others to further transform the purified HTML
+		Hooks::run( 'HTMLPurifierAfterPurify', [ &$html, $purifier ] );
+
+		return $html;
 	}
 }
