@@ -1,6 +1,7 @@
 {
 	"require": {
-		"ezyang/htmlpurifier": "^4.0"
+		"ezyang/htmlpurifier": "^4.0",
+		"cerdic/css-tidy": "^2.0"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "41.0.0",

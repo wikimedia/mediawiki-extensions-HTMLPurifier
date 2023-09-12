@@ -1,6 +1,6 @@
 {
 	"name": "HTMLPurifier",
-	"version": "1.0",
+	"version": "2.0",
 	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
 	"url": "https://www.mediawiki.org/wiki/Extension:HTMLPurifier",
 	"descriptionmsg": "htmlpurifier-desc",
