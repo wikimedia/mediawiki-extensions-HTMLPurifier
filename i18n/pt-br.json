@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"htmlpurifier-desc": "Permite que os usuários insiram HTML bruto usando o HTML Purifier para higienizá-lo."
+}
