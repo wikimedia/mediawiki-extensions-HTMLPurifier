@@ -16,11 +16,16 @@ class HTMLPurifierHooks {
 	public static function onHTML( $input ) {
 		global $wgHTMLPurifierConfig;
 
-		// Purify the HTML
+		// Set the config
 		$config = HTMLPurifier_Config::createDefault();
 		foreach ( $wgHTMLPurifierConfig as $key => $value ) {
 			$config->set( $key, $value );
 		}
+
+		// Allow others to do more complex configurations
+		Hooks::run( 'HTMLPurifierBeforePurify', [ &$config ] );
+
+		// Purify the HTML
 		$purifier = new HTMLPurifier( $config );
 		$html = $purifier->purify( $input );
 
