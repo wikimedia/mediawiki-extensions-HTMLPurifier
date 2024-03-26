@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anterdc99"
+		]
+	},
+	"htmlpurifier-desc": "允许用户使用HTML Purifier对HTML内容过滤，来输入原始HTML内容。"
+}
