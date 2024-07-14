@@ -1,4 +1,5 @@
 <?php
+use MediaWiki\MediaWikiServices;
 
 class HTMLPurifierHooks {
 
@@ -22,15 +23,17 @@ class HTMLPurifierHooks {
 			$config->set( $key, $value );
 		}
 
+		$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
+
 		// Allow others to do more complex configurations
-		Hooks::run( 'HTMLPurifierBeforePurify', [ &$config ] );
+		$hookContainer->run( 'HTMLPurifierBeforePurify', [ &$config ] );
 
 		// Purify the HTML
 		$purifier = new HTMLPurifier( $config );
 		$html = $purifier->purify( $input );
 
 		// Allow others to further transform the purified HTML
-		Hooks::run( 'HTMLPurifierAfterPurify', [ &$html, $purifier ] );
+		$hookContainer->run( 'HTMLPurifierAfterPurify', [ &$html, $purifier ] );
 
 		return $html;
 	}
