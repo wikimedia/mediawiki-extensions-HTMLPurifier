@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"htmlpurifier-desc": "Permite aos usuarios introducir HTML en bruto usando HTML Purifier para limpalo."
+}
