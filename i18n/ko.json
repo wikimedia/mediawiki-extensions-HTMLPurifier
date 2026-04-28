@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"htmlpurifier-desc": "사용자가 HTML Purifier를 사용하여 원본 HTML를 새니타이즈드 시킬 수 있습니다."
+}
