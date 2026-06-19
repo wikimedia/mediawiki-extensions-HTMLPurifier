@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"htmlpurifier-desc": "Umožňuje používateľom zadávať surové HTML pomocou nástroja HTML Purifier, ktorý ho ošetrí."
+}
